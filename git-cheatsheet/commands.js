@@ -147,7 +147,7 @@ var commands = [
     cmd: "pull <remote> <refspec>",
     tags: 'Sharing and Updating',
     docs: "Fetch changes from the remote repo and merge them into the current branch." },
-  { left: "workspace", right: "remote_repo", direction: "dn",
+  { left: "workspace", right: "local_repo", direction: "dn",
     cmd: "reset --hard <remote>/<branch>",
     tags: 'Basic Snapshotting',
     docs: "Reset local repo and working tree to match a remote branch. Use 'reset --hard origin/master' to throw away all commits to the local master branch. Use this to start over on a failed merge." },
